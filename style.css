@@ -1,0 +1,48 @@
+nav{
+    z-index: 100000;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    align-self: center;
+}
+.topnav{
+    background-color: rgba(0, 0, 0, 0.382);
+    overflow: hidden;
+}
+.topnav a.active{
+    float: center;
+    color: #ffffff;
+    padding: 20px 36px;
+    text-align: center;
+}
+.topnav a.active:hover{
+    background-color: rgb(40, 40, 40);
+    cursor:pointer;
+}
+.navbar{
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    font-family:"Dancing Script", cursive;
+}
+.navtools{
+    color: #8b3d3d;
+    background-color: rgba(33, 132, 218, 0);
+    border-bottom: 2px solid #1e1e1e;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.bgimage{
+    height:800px;
+    background:url("bgimage.jpg");
+    background-size:cover;
+    position: relative;
+}
+.hero_title{
+    color:whitesmoke ;
+}
